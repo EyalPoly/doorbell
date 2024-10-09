@@ -45,4 +45,8 @@ void loop() {
     play_song(hpLength,hp,hpDurations,hpTempo);
     Serial.println("Finished playing song");
   }
+  else {
+    // Use Idle mode, allowing the Arduino to still receive data while sleeping
+    LowPower.idle(SLEEP_1S, ADC_OFF, TIMER2_ON, TIMER1_ON, TIMER0_ON, SPI_ON);
+  }
 }
