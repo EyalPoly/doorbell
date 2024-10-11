@@ -24,7 +24,7 @@
 <ul>
     <li>Arduino Nano or compatible board</li>
     <li>433 MHz RF Transmitter Module</li>
-    <li>4Copper wire 0.7mm</li>
+    <li>Copper wire 0.7mm</li>
     <li>Pushbutton switch</li>
     <li>9V battery or appropriate power supply</li>
     <li>Jumper wires</li>
@@ -35,7 +35,7 @@
 <ul>
     <li>Arduino Nano or compatible board</li>
     <li>433 MHz RF Receiver Module</li>
-    <li>4Copper wire 0.7mm</li>
+    <li>Copper wire 0.7mm</li>
     <li>Buzzer</li>
     <li>9V battery or appropriate power supply</li>
     <li>Jumper wires</li>
