@@ -29,5 +29,9 @@
     <li>Breadboard</li>
 </ul>
 
+<h2>Project Schematic</h2>
+<p>Here is the schematic of the project:</p>
+<img src="images/schematic.png" alt="Project Schematic" width="600">
+
 </body>
 </html>
