@@ -29,9 +29,13 @@
     <li>Breadboard</li>
 </ul>
 
-<h2>Project Schematic</h2>
-<p>Here is the schematic of the project:</p>
-<img src="images/schematic.png" alt="Project Schematic" width="600">
+<h2>Transmitter Schematic</h2>
+<p>Below is the schematic for the transmitter part of the project:</p>
+<img src="transmitter/transmitter_schematic.png" alt="Transmitter Schematic" width="600">
+
+<h2>Receiver Schematic</h2>
+<p>Below is the schematic for the receiver part of the project:</p>
+<img src="receiver/receiver_schematic.png" alt="Receiver Schematic" width="600">
 
 </body>
 </html>
