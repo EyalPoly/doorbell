@@ -42,6 +42,12 @@
     <li>Breadboard</li>
 </ul>
 
+<h2>Important Notes</h2>
+<ol>
+    <li><strong>RadioHead Library</strong>: Both the transmitter and receiver use the <a href="https://www.airspayce.com/mikem/arduino/RadioHead/">RadioHead</a> library for wireless communication. Ensure that the library is installed and properly referenced in your Arduino code.</li>
+    <li><strong>Antenna Amplification</strong>: To increase the transmission and reception range of the RF modules, a simple copper wire can be used as an antenna. This greatly enhances the signal strength. For more details on how to do this, refer to this <a href="https://www.youtube.com/watch?v=8iDfd6TxcgI" target="_blank">video tutorial</a>.</li>
+</ol>
+
 <h2>Transmitter Schematic</h2>
 <p>Below is the schematic for the transmitter part of the project:</p>
 <img src="transmitter/transmitter_schematic.png" alt="Transmitter Schematic" width="600">
