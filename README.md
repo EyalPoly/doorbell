@@ -15,7 +15,6 @@
     <li><strong>Button Press</strong>: The doorbell is activated by a pushbutton switch.</li>
     <li><strong>Audio Output</strong>: Plays a pre-defined song using a buzzer.</li>
     <li><strong>Wireless Communication</strong>: Uses RF modules for wireless data transmission.</li>
-    <li><strong>Low Power Consumption</strong>: The system is powered by batteries in order to work anywhere without direct power supply. Implements power-saving techniques by using idle and power-down modes.</li>
 </ul>
 
 <h2>Components Required</h2>
@@ -27,6 +26,7 @@
     <li>Copper wire 0.7mm</li>
     <li>Pushbutton switch</li>
     <li>9V battery or appropriate power supply</li>
+    <li>9V clip-on battery connector without barrel jack</li>
     <li>Jumper wires</li>
     <li>Breadboard</li>
 </ul>
@@ -38,6 +38,7 @@
     <li>Copper wire 0.7mm</li>
     <li>Buzzer</li>
     <li>9V battery or appropriate power supply</li>
+    <li>9V clip-on battery connector without barrel jack</li>
     <li>Jumper wires</li>
     <li>Breadboard</li>
 </ul>
