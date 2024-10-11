@@ -19,12 +19,25 @@
 </ul>
 
 <h2>Components Required</h2>
+
+<h3>Transmitter</h3>
 <ul>
-    <li>Arduino pro mini 3.7v or compatible board</li>
-    <li>433 Mhz RF Transmitter and Receiver Module</li>
-    <li>Buzzerr</li>
+    <li>Arduino Nano or compatible board</li>
+    <li>433 MHz RF Transmitter Module</li>
+    <li>4Copper wire 0.7mm</li>
     <li>Pushbutton switch</li>
-    <li>3.7V battery or appropriate power supply</li>
+    <li>9V battery or appropriate power supply</li>
+    <li>Jumper wires</li>
+    <li>Breadboard</li>
+</ul>
+
+<h3>Receiver</h3>
+<ul>
+    <li>Arduino Nano or compatible board</li>
+    <li>433 MHz RF Receiver Module</li>
+    <li>4Copper wire 0.7mm</li>
+    <li>Buzzer</li>
+    <li>9V battery or appropriate power supply</li>
     <li>Jumper wires</li>
     <li>Breadboard</li>
 </ul>
