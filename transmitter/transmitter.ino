@@ -33,5 +33,5 @@ void loop() {
     delay(200);
   }
 
-70  LowPower.powerDown(SLEEP_FOREVER, ADC_OFF, BOD_OFF); 
+  LowPower.powerDown(SLEEP_FOREVER, ADC_OFF, BOD_OFF); 
 }
