@@ -8,25 +8,26 @@
 
 <h1>Arduino Doorbell Project</h1>
 
-<p>This project is a doorbell system using an Arduino. It features a button that, when pressed, sends a signal to play a sound via a speaker.</p>
+<p>This project is a doorbell system using an Arduino. It features a button that, when pressed, sends a signal to play a sound via a speaker. The system has been optimized for power efficiency and hardware reliability.</p>
 
 <h2>Features</h2>
 <ul>
     <li><strong>Button Press</strong>: The doorbell is activated by a pushbutton switch.</li>
     <li><strong>Audio Output</strong>: Plays a pre-defined song using a buzzer.</li>
     <li><strong>Wireless Communication</strong>: Uses RF modules for wireless data transmission.</li>
+    <li><strong>Power Efficiency</strong>: The transmitter uses deep sleep mode to minimize power consumption.</li>
 </ul>
 
 <h2>Components Required</h2>
 
 <h3>Transmitter</h3>
 <ul>
-    <li>Arduino Nano or compatible board</li>
+    <li>Arduino Pro Mini (3.3V, 8 MHz)</li>
     <li>433 MHz RF Transmitter Module</li>
     <li>Copper wire 0.7mm</li>
     <li>Pushbutton switch</li>
-    <li>9V battery or appropriate power supply</li>
-    <li>9V clip-on battery connector without barrel jack</li>
+    <li>3.3V 9800 mAh battery</li>
+    <li>Battery connector compatible with 3.3V battery</li>
     <li>Jumper wires</li>
     <li>Breadboard</li>
 </ul>
@@ -43,10 +44,17 @@
     <li>Breadboard</li>
 </ul>
 
+<h2>Optimizations</h2>
+<ol>
+    <li><strong>Hardware Upgrade:</strong> The transmitter now uses an Arduino Pro Mini (3.3V, 8 MHz), which is more power-efficient and better suited for low-power applications.</li>
+    <li><strong>Battery Configuration:</strong> The transmitter is powered by a 3.3V 9800 mAh battery, allowing for longer operational time and better compatibility with the new hardware.</li>
+    <li><strong>Power Efficiency:</strong> Deep sleep mode is implemented in the transmitter code, reducing the circuit's power draw to just 2 mAh when idle.</li>
+</ol>
+
 <h2>Important Notes</h2>
 <ol>
-    <li><strong>RadioHead Library</strong>: Both the transmitter and receiver use the <a href="https://www.airspayce.com/mikem/arduino/RadioHead/">RadioHead</a> library for wireless communication. Ensure that the library is installed and properly referenced in your Arduino code.</li>
-    <li><strong>Antenna Amplification</strong>: To increase the transmission and reception range of the RF modules, a simple copper wire can be used as an antenna. This greatly enhances the signal strength. For more details on how to do this, refer to this <a href="https://www.youtube.com/watch?v=8iDfd6TxcgI" target="_blank">video tutorial</a>.</li>
+    <li><strong>RadioHead Library:</strong> Both the transmitter and receiver use the <a href="https://www.airspayce.com/mikem/arduino/RadioHead/">RadioHead</a> library for wireless communication. Ensure that the library is installed and properly referenced in your Arduino code.</li>
+    <li><strong>Antenna Amplification:</strong> To increase the transmission and reception range of the RF modules, a simple copper wire can be used as an antenna. This greatly enhances the signal strength. For more details on how to do this, refer to this <a href="https://www.youtube.com/watch?v=8iDfd6TxcgI" target="_blank">video tutorial</a>.</li>
 </ol>
 
 <h2>Transmitter Schematic</h2>
